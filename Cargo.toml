@@ -1,0 +1,11 @@
+[package]
+name = "battery_life_plot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.26"      # GUI framework
+egui = "0.26"        # UI library
+egui_plot = "0.26"   # For plotting data
+battery = "0.7"      # To read battery status
+chrono = "0.4"
