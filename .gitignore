@@ -1,0 +1,33 @@
+# Ignore Rust build and dependency folders
+/target/
+**/target/
+
+# Ignore Cargo.lock for libraries (not for binaries)
+Cargo.lock
+
+# Ignore backup and temp files
+*.rs.bk
+*.swp
+*.swo
+*~
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore other common files
+.DS_Store
+Thumbs.db
+.idea/
+
+# Ignore Rust/Cargo specific files
+/.cargo/
+/.rustup/
+
+# Ignore test output
+/test-output/
+
+# Ignore coverage output
+/coverage/
+
+# Ignore logs
+*.log
